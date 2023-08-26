@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Site de Viagens </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo Aqui</div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="hero">
+        <h1>Explore o Mundo Conosco</h1>
+        <p>Descubra destinos incríveis e planeje suas próximas aventuras conosco.</p>
+        <a href="#destinos" class="cta-button">Ver Destinos</a>
+    </section>
+    
+    <section id="destinos" class="destinations">
+        <h2>Nossos Destinos em Destaque</h2>
+        <div class="destination">
+            <img src="paris.jpg" alt="Paris, França">
+            <h3>Paris, França</h3>
+            <p>Explore a Torre Eiffel, o Louvre e a charmosa arquitetura parisiense.</p>
+        </div>
+        <div class="destination">
+            <img src="tokyo.jpg" alt="Tóquio, Japão">
+            <h3>Tóquio, Japão</h3>
+            <p>Experimente a mistura única de tradição e modernidade na cidade mais vibrante do Japão.</p>
+        </div>
+    </section>
+    
+    <section id="dicas" class="tips">
+        <h2>Dicas para Viajantes</h2>
+        <ul>
+            <li>Em viagens internacionais, verifique sempre os requisitos de visto e saúde.</li>
+            <li>Faça uma lista de itens essenciais antes de empacotar para não esquecer nada.</li>
+            <li>Explore a culinária local para uma experiência autêntica.</li>
+        </ul>
+    </section>
+    
+    <section id="contato" class="contact">
+        <h2>Entre em Contato Conosco</h2>
+        <p>Tire suas dúvidas e compartilhe suas experiências de viagem conosco.</p>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Meu Site de Viagens. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
